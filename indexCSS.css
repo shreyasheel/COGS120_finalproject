@@ -1,0 +1,109 @@
+h1 {
+    font-size: 2.5em;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+h2 {
+	font-size: 1.5em;
+    background-color: white;
+    margin: 30px;
+    padding: 1px;
+}
+
+p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+
+
+.btn {
+  border: 2.5px solid black;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+}
+
+
+/* On mouse-over */
+
+.btn:hover {background: #eee;}
+
+.notif1 {
+  color: black;
+  border-radius: 12px;
+}
+
+.notif2 {
+  color: black;
+  border-radius: 12px;
+}
+.notif3 {
+  color: black;
+  border-radius: 12px;
+}
+
+
+
+
+
+/* LINE BREAKS */
+/*
+hr.new1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+hr.new2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+*/
+/* LINE BREAKS END */
+
+.navbar {
+	background-color: gray;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align:center;
+	margin: 0;
+	}
+
+.navbar a {
+	float: left;
+	display: inline-block;
+	color: #f2f2f2;  
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: gray;
+  color: white;
+}
+
+
+		
