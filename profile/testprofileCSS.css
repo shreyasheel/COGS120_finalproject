@@ -1,12 +1,24 @@
 div.user-input{
-margin-left: 500px;  
+  top: 0px;
+  font-size: 40px;
+  padding-bottom: 30px;
+  margin-top: 30px;
 }
 
+.profilePic {
+  margin-left: 60px;
+  padding-right: 90px;
+}
+
+
+
 div.user-input2{
-width: 10%;
+  width: 10%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  font-size: 40px;
+  margin-left: 60px;
 }
 
 
@@ -25,13 +37,24 @@ input[type=long_text] {
   box-sizing: border-box;
 }
 
+p {
+  margin-left: 60px;
+}
+
 div.button{
 
   padding: 10px 20px;
 
- 
+
 }
 
+p {
+  font-size: 40px;
+}
+
+button {
+  font-size: 30px;
+}
 
 .navbar {
   background-color: gray;
@@ -41,7 +64,7 @@ div.button{
   width: 100%;
   text-align:center;
   margin: 0;
-  }
+}
 
 .navbar a {
   float: left;
