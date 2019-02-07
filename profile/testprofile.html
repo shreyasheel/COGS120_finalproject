@@ -1,0 +1,85 @@
+	<!doctype html>
+	<html>
+		
+	<head>
+		<title>My Profile</title>	
+		<link rel="stylesheet" href="testprofileCSS.css">		      
+	</head>
+
+	<body>
+					
+		<h1> <img src="http://chittagongit.com//images/profile-png-icon/profile-png-icon-1.jpg" alt="profileicon" width="50" height="50" > My Profile</h1> 
+
+<br><br>
+		<img src="https://cdn3.iconfinder.com/data/icons/genicons-interface/512/User-512.png" alt="profilepic" width="200" height="200" border="2"  >
+
+
+
+				
+					<div class ="user-input">
+					<form action="/action_page.php">
+						Name:<br>
+						<input type="text" name="name">
+						<br><br>
+						College:<br>
+						<input type="text" name="college">
+				 		<br><br>
+				 		Major:<br>
+				 		<input type="text" name="major">
+				 		<br><br>
+					</form>
+					</div>
+
+
+				
+				<div class = "user-input2">
+					<form action="/action_page.php">
+						About Me:<br>
+						<input type="long_text" name="about">
+						<br><br>
+						Interests:<br>
+						<input type="long_text" name="interests">
+						
+					</form>
+
+					</div>
+
+					<div class ="button">
+					<p> Resume: <button onclick="myFunction()">Upload File</button> </p>
+					
+
+					<script>
+						function myFunction() {
+							var x = document.createElement("INPUT");
+							x.setAttribute("type", "file");
+							document.body.appendChild(x);
+						}
+					</script>
+					</div>
+
+
+				
+		
+		<br><br>
+				
+<div class="navbar">
+			<a href="index.html" class="active">Home</a>
+			<a href="search.html" class="active">Search</a>
+			<a href="messages.html" class="active">Messages</a>
+			<a href="#profile" class="active">Profile</a>
+		</div>		
+
+
+
+			
+
+
+
+	</div>			
+
+	</body>
+	</html>
+
+
+
+
