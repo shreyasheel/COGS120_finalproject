@@ -1,8 +1,15 @@
+h1 {
+    font-size: 5em;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+}
+
 div.user-input{
   top: 0px;
   font-size: 40px;
   padding-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 30px;;
 }
 
 .profilePic {
@@ -21,21 +28,39 @@ div.user-input2{
   margin-left: 60px;
 }
 
+/* mine */
+textarea {
+  /*width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box; */
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: lightgray;
+  resize: none;
+}
+
 
 input[type=text] {
   width: 10%;
   padding: 10px 100px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: lightgray;
 }
 
-
+/*
 input[type=long_text] {
   width: 100%;
   padding: 20px 400px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
 }
+*/
 
 p {
   margin-left: 60px;
@@ -54,6 +79,8 @@ p {
 
 button {
   font-size: 30px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
 .navbar {
@@ -73,7 +100,8 @@ button {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 60px;
+
 }
 
 .navbar a:hover {
