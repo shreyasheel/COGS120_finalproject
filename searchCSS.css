@@ -25,10 +25,11 @@
 	background-color: gray;
 	overflow: hidden;
 	position: fixed;
-	bottom: 0;
+	bottom: 10;
 	width: 100%;
 	text-align:center;
 	margin: 0;
+
 	}
 
 .navbar a {
@@ -38,7 +39,7 @@
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 14px;
 }
 
 .navbar a:hover {
