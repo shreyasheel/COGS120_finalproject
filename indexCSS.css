@@ -1,3 +1,5 @@
+body {margin:0;}
+
 h1 {
     font-size: 2.5em;
     background-color: white;
@@ -75,34 +77,30 @@ hr.new2 {
 */
 /* LINE BREAKS END */
 
-.navbar {
-	background-color: gray;
-	overflow: hidden;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	text-align:center;
-	margin: 0;
-	}
-
-.navbar a {
-	float: left;
-	display: inline-block;
-	color: #f2f2f2;  
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #424949; /* Dark-grey background */
+  overflow: hidden; /* Overflow due to float */
+  bottom: 0;
+  position: fixed;
 }
 
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (4 icons with 25% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
 }
 
-.navbar a.active {
-  background-color: gray;
-  color: white;
+.icon-bar a:hover {
+  background-color: black; /* Add a hover color */
+}
+
+.active {
+  background-color: #2874A6; /* Add an active/current color */
 }
 
 
