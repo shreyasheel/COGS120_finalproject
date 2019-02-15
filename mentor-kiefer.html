@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Kiefer Barron</title>	
+	<link rel="stylesheet" href="mentor-nameCSS.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	      
+</head>
+
+<body>
+
+	<h1> <i class="fa fa-user" aria-hidden="true"></i> Mentor Profile </h1>
+
+	<hr style="border: 8px solid black;" />
+
+	<br><br>
+
+<!-- Name Job Company -->
+	<div class ="user-input">
+		<img src="https://www.picmonkey.com/blog/wp-content/uploads/2016/11/1-intro-photo-final.jpg" class="profilePic" alt="profilepic" width="375" height="375" align="left">
+
+		<p> Kiefer Barron </p>
+
+		<p> Physical Therapist </p>
+
+		<p> Company: "iPhysical" </p>
+	</div>
+
+	<div class="user-input2">
+		<p> About Me: I graduated from Dartmouth University and created the startup company iPhysical when I was 35. </p>
+		<br>
+	</div>
+
+
+<!-- ABOUT ME AND INTERESTS BUTTONS
+	<div class = "user-input2">
+		<form action="/action_page.php">
+
+				<textarea rows="4" cols="120">
+				</textarea>			
+			About Me<br>
+			<br><br>
+				<textarea rows="4" cols="120">
+				</textarea>
+			Interests<br>
+		</form>
+	</div>
+-->
+
+
+	<button class="open-button" onclick="openForm()">Connect Me!</button>
+	<div class="chat-popup" id="myForm">
+  		<form action="messages.html" class="form-container">
+    	<h1>Connect Me!</h1>
+
+    	<label for="msg"><b>Message</b></label>
+    	<textarea placeholder="Type message.." name="msg" required></textarea>
+
+    	<button type="submit" class="btn" onclick="closeForm()">Send</button>
+    	<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  		</form>
+	</div>
+
+
+
+	<br><br><br><br><br>
+	<hr style="border: 8px solid black;" />
+	</div>
+
+
+
+
+	<br><br>
+
+	<div class="icon-bar">
+		<a href="index.html"><i class="fa fa-home"></i></a>
+		<a class="active" href="search.html"><i class="fa fa-search"></i></a>
+		<a href="messages.html"><i class="fa fa-commenting-o"></i></a>
+		<a href="myprofile.html"><i class="fa fa-user-circle"></i></a>
+	</div>	
+
+
+	<script src="mentor-nameJS.js"></script>
+
+
+</div>			
+
+</body>
+</html>
