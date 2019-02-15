@@ -1,4 +1,11 @@
-body {margin:0;}
+body {
+  margin:0;
+  background: white;
+}
+
+.jumbotron {
+  background: pink;
+}
 
 .topnav input[type=text] {
   float: middle;
@@ -21,8 +28,6 @@ body {margin:0;}
 
 
 
-
-
 /* Navigation Bar */
 .icon-bar {
   width: 100%; /* Full-width */
@@ -30,6 +35,7 @@ body {margin:0;}
   overflow: hidden; /* Overflow due to float */
   bottom: 0;
   position: fixed;
+  margin-left:0px;
 }
 
 .icon-bar a {
