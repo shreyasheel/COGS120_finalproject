@@ -1,97 +1,49 @@
-body {margin:0;}
-
-h1 {
-    font-size: 6em;
-    background-color: white;
-    margin: 30px;
-    padding: 30px;
+body{
+    padding-top: 68px;
+    padding-bottom: 50px;
 }
+        .image-container {
+            position: relative;
+        }
 
-div.user-input{
-  top: 0px;
-  font-size: 40px;
-  padding-bottom: 30px;
-  margin-top: 30px;;
-}
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
 
-.profilePic {
-  margin-left: 60px;
-  padding-right: 90px;
-}
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
 
+        .image-container:hover .image {
+            opacity: 0.3;
+        }
 
-
-div.user-input2{
-  width: 10%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  font-size: 40px;
-  margin-left: 60px;
-}
-
-/* mine */
-textarea {
-  /*width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box; */
-  border: 2px solid black;
-  border-radius: 4px;
-  background-color: lightgray;
-  resize: none;
-}
+        .image-container:hover .middle {
+            opacity: 1;
+        }
 
 
-input[type=text] {
-  width: 10%;
-  padding: 10px 100px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid black;
-  border-radius: 4px;
-  background-color: lightgray;
-}
 
-/*
-input[type=long_text] {
-  width: 100%;
-  padding: 20px 400px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid black;
-  border-radius: 4px;
-}
-*/
-
-p {
-  margin-left: 60px;
-}
-
-div.button{
-
-  padding: 10px 20px;
-
-
-}
-
-p {
-  font-size: 40px;
-}
-
-button {
-  font-size: 30px;
-  border: 2px solid black;
-  border-radius: 4px;
-}
-
+/* Navigation Bar */
 .icon-bar {
   width: 100%; /* Full-width */
   background-color: #424949; /* Dark-grey background */
   overflow: hidden; /* Overflow due to float */
   bottom: 0;
   position: fixed;
-  margin-left: 0px;
+  margin-left:0px;
   height: 75px;
 }
 
