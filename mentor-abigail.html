@@ -4,7 +4,7 @@
 <head>
 	<title>Abigail Mills</title>	
 	<link rel="stylesheet" href="mentor-nameCSS.css">	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	      
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	   
 </head>
 
 <body>
@@ -47,6 +47,8 @@
 	</div>
 -->
 
+    	<!-- <button type="submit" class="btn" onclick="closeForm()" >Send</button> -->
+
 
 	<button class="open-button" onclick="openForm()">Connect Me!</button>
 	<div class="chat-popup" id="myForm">
@@ -56,7 +58,9 @@
     	<label for="msg"><b>Message</b></label>
     	<textarea placeholder="Type message.." name="msg" required></textarea>
 
-    	<button type="submit" class="btn" onclick="closeForm()">Send</button>
+    	<button type="submit" class="btn" onclick="myFunction()" onclick="closeForm()">Send</button>
+    		<div id="snackbar">Your message was sent!</div>
+
     	<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   		</form>
 	</div>
