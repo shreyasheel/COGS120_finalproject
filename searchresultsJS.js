@@ -3,7 +3,7 @@ var data = require('./data.json');
 
 exports.view = function(request, response){
 	console.log(data);
-	response.render('./searchresults.handlebars', data);
+	response.render('./searchresults', data);
 };
 
 	//response.render('searchresults', data);
