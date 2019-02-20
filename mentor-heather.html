@@ -2,88 +2,139 @@
 <html>
 
 <head>
-	<title>Heather Morse</title>	
-	<link rel="stylesheet" href="mentor-nameCSS.css">	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	      
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://bootswatch.com/4/simplex/bootstrap.min.css"/>
+<link rel="stylesheet" href="mentor-nameCSS.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script type="text/javascript">
+            function openTab(th)
+            {
+                window.open(th.name,'_blank');
+            }
+        </script>
 </head>
 
 <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="card">
 
-	<h1> <i class="fa fa-user" aria-hidden="true"></i> Mentor Profile </h1>
+					<div class="card-body">
+						<div class="card-title mb-4">
+							<div class="d-flex justify-content-start">
+								<div class="image-container">
+									<img src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1200x1200.jpg" id="imgProfile" style="width: 200px; height: 200px" class="img-thumbnail" />
 
-	<hr style="border: 8px solid black;" />
+								</div>
+								<div class="userData ml-3">
+									<h2 class="d-block" style="font-size: 1.5rem; font-weight: bold">Heather Morse</a></h>
 
-	<br><br>
+									</div>
 
-<!-- Name Job Company -->
-	<div class ="user-input">
-		<img src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1200x1200.jpg" class="profilePic" alt="profilepic" width="375" height="375" align="left">
-
-		<p> Heather Morse </p>
-
-		<p> Job: Chef </p>
-
-		<p> Company: "Flavorati" </p>
-	</div>
-
-	<div class="user-input2">
-		<p> About Me: I graduated from University of California: Los Angeles and won Master Chef on Food Network. </p>
-		<br>
-	</div>
+								</div>
+							</div>
 
 
-<!-- ABOUT ME AND INTERESTS BUTTONS
-	<div class = "user-input2">
-		<form action="/action_page.php">
 
-				<textarea rows="4" cols="120">
-				</textarea>			
-			About Me<br>
-			<br><br>
-				<textarea rows="4" cols="120">
-				</textarea>
-			Interests<br>
-		</form>
-	</div>
+
+
+							<div class="row">
+								<div class="col-sm-3 col-md-2 col-5">
+									<label style="font-weight:bold;">Job</label>
+								</div>
+								<div class="col-md-8 col-6">
+									Chef
+								</div>
+							</div>
+							<hr />
+
+
+							<div class="row">
+								<div class="col-sm-3 col-md-2 col-5">
+									<label style="font-weight:bold;">Company</label>
+								</div>
+								<div class="col-md-8 col-6">
+									Flavorati
+								</div>
+							</div>
+							<hr />
+							<div class="row">
+								<div class="col-sm-3 col-md-2 col-5">
+									<label style="font-weight:bold;">About Me</label>
+								</div>
+								<div class="col-md-8 col-6">
+									I graduated from Yale University and won Master Chef in 2010. I now own my own restaurant, Flavorati.
+								</div>
+							</div>
+							<hr />
+
+<!--
+							<div class="row">
+								<div class="col-sm-3 col-md-2 col-5">
+									<label style="font-weight:bold;">Interests</label>
+								</div>
+								<div class="col-md-8 col-6">
+									Hiking, Surfing, Cooking
+								</div>
+							</div>
+
+							<hr />
+							<div class="row">
+								<div class="col-sm-3 col-md-2 col-5">
+		
+									<input type="button" value="Resume/CV" style="font-weight:bold;" onclick="window.open('https://www.pdfonline.com/japan/easyconverter/sdk/pdf-to-word/conversion-samples/resumetemplate.pdf','_blank')">
+								</div>
+								
+							</div>
 -->
 
 
+							<hr />
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</div>
+
 	<button class="open-button" onclick="openForm()">Connect Me!</button>
 	<div class="chat-popup" id="myForm">
-  		<form action="messages.html" class="form-container">
+  		<form onsubmit="closeForm(); return false;" class="form-container">
     	<h1>Connect Me!</h1>
 
     	<label for="msg"><b>Message</b></label>
     	<textarea placeholder="Type message.." name="msg" required></textarea>
 
-    	<button type="submit" class="btn" onclick="closeForm()">Send</button>
+    	<button type="submit" class="btn" onclick="myFunction()">Send</button>
+    		<div id="snackbar">Your message was sent!</div>
+
     	<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   		</form>
 	</div>
 
+</div>
 
+<div class="icon-bar">
+			<a href="search.html"><i class="fa fa-search"></i></a>
+			<a href="messages.html"><i class="fa fa-commenting-o"></i></a>
+			<a class="active" href="myprofile.html"><i class="fa fa-user-circle"></i></a>
+		</div>	
 
-	<br><br><br><br><br>
-	<hr style="border: 8px solid black;" />
-	</div>
-
-
-
-
-	<br><br>
-
-	<div class="icon-bar">
-		<a href="home.html"><i class="fa fa-home"></i></a>
-		<a class="active" href="search.html"><i class="fa fa-search"></i></a>
-		<a href="messages.html"><i class="fa fa-commenting-o"></i></a>
-		<a href="myprofile.html"><i class="fa fa-user-circle"></i></a>
-	</div>	
-
-
-	<script src="mentor-nameJS.js"></script>
-
-
-</div>			
-
+			<script src="mentor-nameJS.js"></script>
 </body>
+
+
 </html>

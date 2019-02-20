@@ -18,25 +18,29 @@
 <body>
 	<div class="container">
 
-	<h1>Search Results</h1>
+		<h1>Search Results</h1>
+
+		<div class="mentor-container">
 
 
 
-	{{#each mentors}}
-	<div class="mentors" >
-		<img src="{{imageURL}}" class="img-responsive">
-		<a href="{{profile}}"><h3>{{name}}</h3> </a>
-		<p>{{job}}</p>
-		<p>{{company}}</p>
-		<p>{{location}}</p>
-	</div>
-	{{/each}}
+			{{#each mentors}}
+			<div class="mentors" >
+				<img src="{{imageURL}}" class="img-responsive">
+				<a href="{{profile}}"><h3>{{name}}</h3> </a>
+				<p>{{job}}</p>
+				<p>{{company}}</p>
+				<p>{{location}}</p>
+			</div>
+			{{/each}}
+		<br><br><br><br><br>
+		</div>
 
 
-	<!-- in case the JSON file doesn't work.... 
-	<div class="mentor-container">
+			<!-- in case the JSON file doesn't work.... 
+			<div class="mentor-container">
 
-		<div class="Abigail" >
+			<div class="Abigail" >
 			<img src="https://d3n8a8pro7vhmx.cloudfront.net/nationalparty/pages/5244/attachments/original/1520903034/20._Dowie_Sarah.png?1520903034" class="img-responsive">
 			<a href="> <h3>Abigail Mills</h3> </a>
 			<p>Computer Systems Analyst</p>
@@ -75,11 +79,6 @@
 -->
 
 
-	<div class="icon-bar">
-		<a class="active" href="search.html"><i class="fa fa-search"></i></a>
-		<a href="messages.html"><i class="fa fa-commenting-o"></i></a>
-		<a href="myprofile.html"><i class="fa fa-user-circle"></i></a>
-	</div>
 
 
 
@@ -89,8 +88,15 @@
 	<script src="js/bootstrap.js"></script>
 	<script src="js/hci-friends.js"></script> 
 	<script src="index.js"></script> 
-	-->
+-->
 
+	</div>
+
+<div class="icon-bar">
+	<a class="active" href="../COGS120_finalproject/search.html"><i class="fa fa-search"></i></a>
+	<a href="COGS120_finalproject/messages.html"><i class="fa fa-commenting-o"></i></a>
+	<a href="COGS120_finalproject/myprofile.html"><i class="fa fa-user-circle"></i></a>
 </div>
+
 </body>
 </html>

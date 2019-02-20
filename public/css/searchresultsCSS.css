@@ -2,6 +2,7 @@
 
 body {
   overflow: scroll;
+  margin-left: 0px;
 }
 
 h1 {
@@ -15,14 +16,18 @@ h1 {
 }
 
 
+.container {
+  margin-left: 30px;
+}
+
 .mentors {
-	max-width: 200px; 
+	max-width: 320px; 
 }
 
 
 /* in case JSON file doesn't work */
 .mentor-container {
-	width: 350px;
+	width: 320px;
 }
 
 .mentor-container img {
