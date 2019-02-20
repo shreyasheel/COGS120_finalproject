@@ -7,7 +7,7 @@
 			"location": "San Diego, CA",
 			"about": "I graduated from Harvard University and my dream since I was a little girl was to be a Computer Systems Analyst.",
 			"imageURL": "https://d3n8a8pro7vhmx.cloudfront.net/nationalparty/pages/5244/attachments/original/1520903034/20._Dowie_Sarah.png?1520903034",
-			"profile": "mentor-abigail.html"
+			"profile": "searchresults/mentor_abigail"
 		},
 		{
 			"name": "Mateo Little",
@@ -16,7 +16,7 @@
 			"location": "San Diego, CA",
 			"about": "I graduated from Claremont McKenna and became a financial adviser at age 35.",
 			"imageURL": "http://blog.chemistry.com/wp-content/uploads/2012/09/man-smiling.jpg",
-			"profile": "mentor-mateo.html"
+			"profile": "searchresults/mentor_mateo"
 		},
 		{
 			"name": "Elliott Bernal",
@@ -25,7 +25,7 @@
 			"location": "San Diego, CA",
 			"about": "I graduated from New York University and became an Insurance Agent when I was 25.",
 			"imageURL": "https://steamuserimages-a.akamaihd.net/ugc/940573211737440191/BDFA2022BE1D420249B31AF05D0CDC2A70597B47/",
-			"profile": "mentor-elliott.html"
+			"profile": "searchresults/mentor_elliott"
 		},
 		{
 			"name": "Kiefer Barron",
@@ -34,7 +34,7 @@
 			"location": "San Diego, CA",
 			"about": "I graduated from Dartmouth University and created the startup company iPhysical when I was 35.",
 			"imageURL": "https://www.picmonkey.com/blog/wp-content/uploads/2016/11/1-intro-photo-final.jpg",
-			"profile": "mentor-kiefer.html"
+			"profile": "searchresults/mentor_kiefer"
 		},
 		{
 			"name": "Heather Morse",
@@ -43,7 +43,7 @@
 			"location": "San Diego, CA",
 			"about": "After three years",
 			"imageURL": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1200x1200.jpg",
-			"profile": "mentor-heather.html"
+			"profile": "searchresults/mentor_heather"
 		}
 	]
 }
