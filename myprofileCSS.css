@@ -1,6 +1,8 @@
 body{
-    padding-top: 68px;
+    padding-top: 50px;
     padding-bottom: 50px;
+ 
+
 }
         .image-container {
             position: relative;
@@ -64,3 +66,4 @@ body{
 .active {
   background-color: #2874A6; /* Add an active/current color */
 }
+
