@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -37,7 +41,7 @@ input[type=submit]:hover {
 .container {
   border-radius: 1px;
   background-color: #f2f2f2;
-  padding: 30px;
+  padding: 25px;
 }
 
 .col-25 {
@@ -57,6 +61,28 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #56baed;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  padding: 0px;
+  text-align: center;
 }
 
 
@@ -82,6 +108,9 @@ input[type=submit]:hover {
         <input type="text" id="firstname" name="firstname" placeholder="Your first name..">
       </div>
     </div>
+
+    <br>
+
     <div class="row">
       <div class="col-25">
         <label for="lastname">Last Name</label>
@@ -90,6 +119,9 @@ input[type=submit]:hover {
         <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
       </div>
     </div>
+
+    <br>
+
     <div class="row">
       <div class="col-25">
          <label for="College">College</label>
@@ -98,6 +130,9 @@ input[type=submit]:hover {
          <input type="text" id="college" name="college" placeholder="Your college...">
       </div>
     </div>
+
+    <br>
+
     <div class="row">
       <div class="col-25">
          <label for="Major">Major</label>
@@ -106,14 +141,20 @@ input[type=submit]:hover {
          <input type="text" id="major" name="major" placeholder="Your major...">
       </div>
      </div>
+
+    <br>
+
     <div class="row">
       <div class="col-25">
         <label for="subject">About You</label>
       </div>
       <div class="col-75">
-        <textarea id="bio" name="bio" placeholder="What would you like people to know about you?" style="height:100px"></textarea>
+        <textarea id="bio" name="bio" placeholder="What would you like people to know about you?" style="height:60px"></textarea>
       </div>
     </div>
+
+    <br>
+
     <div class="row">
       <div class="col-25">
          <label for="Interests">Interests</label>
@@ -122,6 +163,9 @@ input[type=submit]:hover {
          <input type="text" id="interests" name="interests" placeholder="What do you like to do for fun?">
       </div>
      </div>
+
+     <br>
+
      <div class="row">
       <div class="col-25">
          <label for="Interests">Upload Resume</label>
@@ -130,10 +174,15 @@ input[type=submit]:hover {
        	<form action="/action_page.php"> 
        		<input type="file" name="pic" accept="file_extension">
 
-  <br>  <br>
+  <br> 
 
-  
-  <a href="myprofile.html" class="button" style="float: right;">Create Account</a>
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <input type="submit" class="fadeIn fourth" value="Create Account"   formaction="myprofile.html">
+    </div>
+  </div>
+
+
 
 </div>
 </form>
