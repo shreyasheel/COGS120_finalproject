@@ -13,7 +13,7 @@
   <script src="/js/indexJS.js"></script>
   
   {{> facebook}}
-  <script src="/js/facebookJS.js"></script>
+  <script src="/js/facebook.js"></script>
 
 
 
@@ -44,11 +44,11 @@
       
 
       <p class="facebookLogin">
-          Please login through Facebook
-          <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+          <fb:login-button data-size="large" scope="public_profile,email" onlogin="checkLoginState()" onclick="/search.handlebars">
           </fb:login-button>   
       </p>
     
+    <br>
 
 
 
