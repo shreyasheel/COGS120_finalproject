@@ -1,7 +1,7 @@
 
 exports.view = function(request, response){
     console.log(data);
-    response.render('./messages', data);
+    response.render('messages', data);
 };
 
 $(document).ready(function(){

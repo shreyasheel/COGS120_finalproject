@@ -13,7 +13,7 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./public/js/indexJS')
 var searchresults = require('./searchresultsJS');
-//var messages = require('./messagesJS')
+var messages = require('./messagesJS')
 var myprofile = require('./myprofileJS')
 var search = require('./searchJS')
 var createaccount = require('./createaccountJS')
@@ -53,7 +53,7 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view)
 app.get('/searchresults', searchresults.view);
-//app.get('messages', messages.view)
+app.get('messages', messages.view)
 app.get('/myprofile', myprofile.view);
 app.get('/search', search.view)
 app.get('/createaccount', createaccount.view)
