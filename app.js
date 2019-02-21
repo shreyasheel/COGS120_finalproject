@@ -11,19 +11,19 @@ var handlebars = require('express3-handlebars')
 //var index = require('./routes/index');
 //var project = require('./routes/project');
 
-var index = require('./public/js/indexJS')
+var index = require('./routes/indexJS')
 var searchresults = require('./searchresultsJS');
-var messages = require('./messagesJS')
+var messages = require('./routes/message')
 var myprofile = require('./myprofileJS')
 var search = require('./searchJS')
 var createaccount = require('./createaccountJS')
 
 //mentor pages
-var mentor_abigail = require('./public/js/mentor-abigailJS')
-var mentor_elliott = require('./public/js/mentor-elliottJS')
-var mentor_kiefer = require('./public/js/mentor-kieferJS')
-var mentor_mateo = require('./public/js/mentor-mateoJS')
-var mentor_heather = require('./public/js/mentor-heatherJS')
+var mentor_abigail = require('./routes/mentor-abigailJS')
+var mentor_elliott = require('./routes/mentor-elliottJS')
+var mentor_kiefer = require('./routes/mentor-kieferJS')
+var mentor_mateo = require('./routes/mentor-mateoJS')
+var mentor_heather = require('./routes/mentor-heatherJS')
 
 // Example route
 //var user = require('./routes/user');
@@ -53,7 +53,7 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view)
 app.get('/searchresults', searchresults.view);
-app.get('messages', messages.view)
+app.get('/messages', messages.view)
 app.get('/myprofile', myprofile.view);
 app.get('/search', search.view)
 app.get('/createaccount', createaccount.view)
