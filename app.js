@@ -11,7 +11,7 @@ var handlebars = require('express3-handlebars')
 //var index = require('./routes/index');
 //var project = require('./routes/project');
 
-var index = require('./routes/indexJS')
+var index = require('./routes/index')
 var searchresults = require('./searchresultsJS');
 var messages = require('./routes/message')
 var myprofile = require('./myprofileJS')
