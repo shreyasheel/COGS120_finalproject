@@ -6,15 +6,17 @@
     /*font: 16px Arial;  */
     margin:2px;
     background: white;
-    font:12px "Open Sans", sans-serif;
+    font:12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
   .paragraph {
     margin:30px;
+    font:12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
   .jumbotron {
     background: lightgray;
+    font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
   /*the container must be positioned relative:*/
