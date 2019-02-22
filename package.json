@@ -1,0 +1,24 @@
+{
+  "name": "cogs120_finalproject",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "app.js",
+  "dependencies": {
+    "js": "^0.1.0",
+    "node": "^11.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasheel/COGS120_finalproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyasheel/COGS120_finalproject/issues"
+  },
+  "homepage": "https://github.com/shreyasheel/COGS120_finalproject#readme"
+}
