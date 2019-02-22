@@ -30,7 +30,7 @@
   body {
     font: 16px;  
     margin:2px;
-    background: white;
+    background-color: white;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
@@ -39,8 +39,16 @@
   }
 
   .jumbotron {
-    background: lightgray;
+   margin-left:32px;
+   margin-top:15px;
+   font:30px;
+   background-color: #f2f2f2;
   }
+
+  h1 {
+    font-size: 2.5em;
+    padding: 10px;
+}
 
   /*the container must be positioned relative:*/
   .autocomplete {
@@ -50,15 +58,16 @@
 
   input {
     border: 1px solid transparent;
-    background-color: #f1f1f1;
+    background-color: #f2f2f2;
     padding: 10px;
     font-size: 16px;
     margin-left: 18px;
+    border: 1px solid black;
   }
 
   input[type=text] {
-    background-color: #f1f1f1;
-    width: 65%;
+    background-color: #f2f2f2;
+    width: 73%;
 
   }
 
@@ -100,12 +109,22 @@
     color: #ffffff; 
   }
 
+  .dropdown-menu {
+    margin-right: 193px;
+
+  }
+
  #filter {
   	margin-left: 18px;
+    border: 1px solid black;
   }
 
   #searchBtn {
-  	margin-left:18px;
+  	margin-left:3px;
+    height: 45px;
+    width:43px;
+    border: 1px solid black;
+    margin-bottom: 3px;
   }
   
 
@@ -143,16 +162,16 @@
 <body>
 
   <div class="container">
-    <div class="jumbotron">
+    
 
-      <h1><b> <i class="fa fa-search" aria-hidden="true"></i> Search</b></h1>
+      <h1> <b><i class="fa fa-search" aria-hidden="true"></i> Search</b></h1>
 
       <!--
       <a href="index.html">
       Back to home
       </a>
       -->
-    </div>
+    
   </div>
 
     <div class="paragraph">
@@ -163,10 +182,7 @@
 
   <!--Make sure the form has the autocomplete function switched off:-->
   <form autocomplete="off" action="/action_page.php">
-    <div class="autocomplete" style="width:300px;">
-      <input id="myInput" type="text" name="searchbar" placeholder="Search">
-   
-
+    
     <div class="input-group-btn" >
       <button type="button" id="filter" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="label-icon" >Filter</span> <span class="caret" >&nbsp;</span></button>
       <div class="dropdown-menu dropdown-menu-right" >
@@ -187,6 +203,15 @@
       </div>
 
     </div>
+
+    <br>
+
+
+    <div class="autocomplete" style="width:300px;">
+      <input id="myInput" type="text" name="searchbar" placeholder="Search">
+   
+
+    
     <button id="searchBtn" type="button" class="btn btn-secondary btn-search" onclick="location.href='http://localhost:3000/searchresults'"><span class="glyphicon glyphicon-search" >&nbsp;</span> <span class="label-icon" ></span></button>
   </div>
 
