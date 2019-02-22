@@ -4,8 +4,10 @@
   "description": "node project",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.16.4",
+    "express3-handlebars": "^0.5.2",
     "js": "^0.1.0",
-    "node": "^11.10.0"
+    "node": "10.15.0"
   },
   "devDependencies": {},
   "scripts": {
