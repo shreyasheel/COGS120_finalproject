@@ -9,11 +9,11 @@ body {
 .jumbotron {
   margin-left:32px;
   margin-top:15px;
-  font:30px;
+  font:20px;
 }
 
 h1 {
-    font-size: 2.5em;
+    font:20px;
     padding: 10px;
 }
 
