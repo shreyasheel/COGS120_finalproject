@@ -308,6 +308,11 @@ div.message.right .corner{
      outline: 0;     
 }
 
+#disappear {
+  display: none;
+}
+
+
 #close{
     position:absolute;
     top: 8px;   

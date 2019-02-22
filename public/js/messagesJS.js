@@ -1,3 +1,40 @@
+
+
+function disappearMessage() {
+  var x = document.getElementById("disappear");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+/*
+function disappearMessage0() {
+    var x = document.getElementById('disappear');
+    var displaySetting = x.style.display;
+    var sendButton = document.getElementById('send')
+
+    if (displaySetting == 'block') {
+        x.style.display = 'none';
+    }
+    else{
+        x.style.display = 'block';
+    }
+}
+*/
+
+
+
+/*
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  */
+
+
 $(document).ready(function(){
     
   var preloadbg = document.createElement("img");

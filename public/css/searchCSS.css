@@ -3,9 +3,10 @@
   }
 
   body {
-    font: 16px Arial;  
+    /*font: 16px Arial;  */
     margin:2px;
     background: white;
+    font:12px "Open Sans", sans-serif;
   }
 
   .paragraph {
