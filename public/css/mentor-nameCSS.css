@@ -36,6 +36,11 @@ body{
             opacity: 1;
         }
 
+        .responsive {
+          width: 100%;
+          height: auto;
+        }
+
 /* Button Styling */
 
 input[type=button] {
